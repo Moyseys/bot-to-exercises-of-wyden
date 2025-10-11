@@ -1,0 +1,30 @@
+{
+  "name": "ollaman-script",
+  "version": "1.0.0",
+  "description": "Script simples para enviar prompts ao Ollama local usando a biblioteca oficial",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "dev": "tsx watch main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chromedriver": "^141.0.2",
+    "dotenv": "^17.2.3",
+    "ollama": "^0.6.0",
+    "selenium-webdriver": "^4.36.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
