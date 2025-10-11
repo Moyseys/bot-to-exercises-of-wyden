@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
-import { Question } from "./types";
-import { Api } from "./Api";
-import { sendToOllama } from "./ollamaClient";
+import { Question } from "./types.js";
+import { Api } from "./Api.js";
+import { sendToOllama } from "./ollamaClient.js";
 dotenv.config();
 
 function scrapper(questions: Question[]): string {

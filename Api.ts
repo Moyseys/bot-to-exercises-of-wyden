@@ -1,4 +1,4 @@
-import type { PracticeResponse } from "./types";
+import type { PracticeResponse } from "./types.js";
 
 export class Api {
   private readonly token = process.env.TOKEN;
